@@ -38,11 +38,19 @@ public class Negyzet {
     public void setKoord(Koordinata koord) {
         this.koord = koord;
     }
-     boolean egyforma_e(int egyikoldal, int masikoldal) {
+   /*  boolean egyforma_e(int egyikoldal, int masikoldal) {
         if(egyikoldal == masikoldal){
              return true;
         }
        return false;
+    }
+*/
+
+    @Override
+    public boolean equals(Object obj) {
+       Negyzet masik = (Negyzet) obj;
+       
+        return this.a == masik.a;
     }
 
   
