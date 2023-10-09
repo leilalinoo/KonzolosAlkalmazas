@@ -38,6 +38,12 @@ public class Negyzet {
     public void setKoord(Koordinata koord) {
         this.koord = koord;
     }
+     boolean egyforma_e(int egyikoldal, int masikoldal) {
+        if(egyikoldal == masikoldal){
+             return true;
+        }
+       return false;
+    }
 
   
     @Override
