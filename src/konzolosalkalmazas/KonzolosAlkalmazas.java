@@ -2,6 +2,7 @@ package konzolosalkalmazas;
 
 public class KonzolosAlkalmazas {
 
+
     public static void main(String[] args) {
 
       inditas();
@@ -11,6 +12,7 @@ public class KonzolosAlkalmazas {
         Negyzet n = new Negyzet();
         System.out.println("a négyzet területe:"+n.getATerulet());
         System.out.println(n.toString());
+
     }
     
 }
