@@ -9,7 +9,7 @@ public class Negyzet {
         return a*a;
     }
      public String getKoordinata() {
-         String koo = "x = "+x+","+"y = "+y;
+         String koo = "x = "+x+", "+"y = "+y;
         return koo;
     }
     
