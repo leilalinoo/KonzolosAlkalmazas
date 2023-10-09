@@ -1,20 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package konzolosalkalmazas;
 
-/**
- *
- * @author papp.nikoletta
- */
 public class KonzolosAlkalmazas {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+       Negyzet n1 = new Negyzet();
+        System.out.println("A négyzet oldalainak hossza: "+n1.getAterulet()+ "A négyzet koordinátája: "+n1.getKoordinata());
     }
     
 }

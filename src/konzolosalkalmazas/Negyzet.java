@@ -1,13 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package konzolosalkalmazas;
 
-/**
- *
- * @author papp.nikoletta
- */
 public class Negyzet {
+    int a = 3;
+    int x = 2;
+    int y = 3;
+    public int getAterulet() {
+        return a*a;
+    }
+     public String getKoordinata() {
+         String koo = "x = "+x+","+"y = "+y;
+        return koo;
+    }
     
 }
