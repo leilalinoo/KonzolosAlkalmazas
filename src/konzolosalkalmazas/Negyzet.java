@@ -1,25 +1,53 @@
-
 package konzolosalkalmazas;
 
 public class Negyzet {
 
-    int a = 5;
-   
+
+
+    private int a;
+    private Koordinata koord;
+
 
     public int getATerulet() {
         return a * a;
     }
 
     public void setA(int a) {
-        if (a<=0) {
-            a = 2;
+
+        if (a <= 0) {
+
+            a = 1;
         }
         this.a = a;
+    }
+
+    public int getA() {
+        return a;
+
+    }
+
+    public Koordinata getKoord() {
+        return koord;
+    }
+
+    public void setKoord(Koordinata koord) {
+        this.koord = koord;
     }
 
   
     @Override
     public String toString() {
-        return "A négyzet oldala: "+a+ "; "+ "A négyzet területe: "+getATerulet();
+
+        return "Negyzet{" + "a=" + a + ", x=" + koord.getX() +",y="+koord.getY()+ '}';
+
     }
-}
+
+    
+    
+    
+    
+
+
+    }
+    
+
