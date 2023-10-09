@@ -1,10 +1,5 @@
 
 
-
-
-
-    
-
 package konzolosalkalmazas;
 
 public class Negyzet {
