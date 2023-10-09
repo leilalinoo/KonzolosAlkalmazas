@@ -10,9 +10,11 @@ public class KonzolosAlkalmazas {
 
     private static void inditas() {
         Negyzet n = new Negyzet();
-        System.out.println("a négyzet területe:"+n.getATerulet());
-        System.out.println(n.toString());
-
+        Koordinata k = new Koordinata();
+        k.setX(5);
+        k.setY(6);
+        System.out.println(n.toString()+ " ; "+"A koordinátája:  "+k.toString());
+        
     }
     
 }
