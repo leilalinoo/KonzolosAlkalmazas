@@ -3,11 +3,14 @@ package konzolosalkalmazas;
 public class KonzolosAlkalmazas {
 
     public static void main(String[] args) {
-        
-        Negyzet negyzet = new Negyzet();
-        System.out.println("Terület: "+negyzet.terulet());
-        
-        
+
+      inditas();
+    }
+
+    private static void inditas() {
+        Negyzet n = new Negyzet();
+        System.out.println("a négyzet területe:"+n.getATerulet());
+        System.out.println(n.toString());
     }
     
 }

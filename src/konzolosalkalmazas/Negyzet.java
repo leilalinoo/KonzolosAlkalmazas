@@ -1,22 +1,25 @@
 package konzolosalkalmazas;
 
 public class Negyzet {
-    private int x = 5;
-    private int y = 4;
-    private int oldalHossz = 10;
-    
-    
-    
-    public int terulet(){
-        return oldalHossz*oldalHossz;
+
+    int a = 5;
+    int x = 2;
+    int y = 3;
+
+    public int getATerulet() {
+        return a * a;
     }
 
-    public String getKoordinatak(){
-        return "["+x+";"+y+"]";
+    public int getX() {
+        return x;
     }
 
-    public int getOldalHossz() {
-        return oldalHossz;
+    public int getY() {
+        return y;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Negyzet{" + " x=" + x + ", y=" + y + '}';
+    }
 }
