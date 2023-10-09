@@ -21,6 +21,8 @@ public class KonzolosAlkalmazas {
         System.out.println("a négyzet területe:" + n.getATerulet());
         System.out.println(k.toString());
         System.out.println("Egyforma-e? "+n.equals(n2));
+        System.out.println("Hashcode: "+n.hashCode());
+          System.out.println("Hashcode: "+n2.hashCode());
         
 
     }
