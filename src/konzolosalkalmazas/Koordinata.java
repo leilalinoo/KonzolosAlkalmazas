@@ -3,12 +3,6 @@
 package konzolosalkalmazas;
 
 public class Koordinata {
-  
-   
-
-
-
-
 
     private int x;
     private int y;
@@ -28,6 +22,11 @@ public class Koordinata {
 
     public int getY() {
         return y;
+    }
+
+    public Koordinata(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 
 

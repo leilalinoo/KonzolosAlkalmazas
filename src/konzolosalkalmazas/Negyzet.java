@@ -7,6 +7,11 @@ public class Negyzet {
     private int a;
     private Koordinata koord;
 
+    public Negyzet(int a, Koordinata koord) {
+        this.a = a;
+        this.koord = koord;
+    }
+
 
     public int getATerulet() {
         return a * a;

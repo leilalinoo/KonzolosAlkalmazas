@@ -8,16 +8,16 @@ public class KonzolosAlkalmazas {
     }
     
     private static void inditas() {
-        Negyzet n = new Negyzet();
-        Koordinata k = new Koordinata();
+         Koordinata k = new Koordinata(4,5);
+        Negyzet n = new Negyzet(3, k);
+       
 
        
         
 
 
         n.setA(4);
-        k.setX(2);
-        k.setY(5);
+       
         System.out.println("a négyzet területe:" + n.getATerulet());
         System.out.println(k.toString());
         
