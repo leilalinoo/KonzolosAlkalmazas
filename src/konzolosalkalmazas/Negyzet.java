@@ -1,5 +1,4 @@
 
-
 package konzolosalkalmazas;
 
 public class Negyzet {
@@ -24,6 +23,4 @@ public class Negyzet {
     public String toString() {
         return "Negyzet{" + " x=" + x + ", y=" + y + '}';
     }
-
-
 }
