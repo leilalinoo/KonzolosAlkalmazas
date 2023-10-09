@@ -2,15 +2,19 @@ package konzolosalkalmazas;
 
 public class Negyzet {
 
+
     private int a;
     private Koordinata koord;
+
 
     public int getATerulet() {
         return a * a;
     }
 
     public void setA(int a) {
+
         if (a <= 0) {
+
             a = 1;
         }
         this.a = a;
@@ -18,6 +22,7 @@ public class Negyzet {
 
     public int getA() {
         return a;
+
     }
 
     public Koordinata getKoord() {
@@ -38,4 +43,7 @@ public class Negyzet {
     
     
 
-}
+
+    }
+    
+

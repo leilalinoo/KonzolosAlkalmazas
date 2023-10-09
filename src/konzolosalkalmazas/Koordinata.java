@@ -2,6 +2,7 @@ package konzolosalkalmazas;
 
 public class Koordinata {
 
+
     private int x;
     private int y;
 
@@ -13,6 +14,9 @@ public class Koordinata {
         this.y = y;
     }
 
+    
+
+
     public int getX() {
         return x;
     }
@@ -21,7 +25,7 @@ public class Koordinata {
         return y;
     }
 
-    @Override
+
     public String toString() {
         return "Négyzet koordinata{" + "x=" + x + ", y=" + y + '}';
     }
