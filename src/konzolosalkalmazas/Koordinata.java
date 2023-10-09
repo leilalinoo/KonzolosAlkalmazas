@@ -32,6 +32,7 @@ public class Koordinata {
 
   
 
+    @Override
     public String toString() {
         return "Négyzet koordinata{" + "x=" + x + ", y=" + y + '}';
     }
